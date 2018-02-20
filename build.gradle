@@ -1,0 +1,33 @@
+buildscript {
+    ext.kotlin_version = '1.2.21'
+
+    repositories {
+        mavenCentral()
+
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+version '0.1'
+
+allprojects {
+    apply plugin: 'kotlin2js'
+    apply plugin: 'kotlin-dce-js'
+
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+        compile 'com.github.cypressious.kotlin-webextensions-declarations:webextensions-declarations:v0.1'
+    }
+
+    compileKotlin2Js {
+        kotlinOptions.sourceMap = true
+        kotlinOptions.sourceMapEmbedSources = "always"
+    }
+}
