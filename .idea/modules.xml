@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content_script/content_script.iml" filepath="$PROJECT_DIR$/.idea/modules/content_script/content_script.iml" group="content_script" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content_script/content_script_main.iml" filepath="$PROJECT_DIR$/.idea/modules/content_script/content_script_main.iml" group="content_script" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/content_script/content_script_test.iml" filepath="$PROJECT_DIR$/.idea/modules/content_script/content_script_test.iml" group="content_script" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ff-search-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/ff-search-kotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ff-search-kotlin_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/ff-search-kotlin_buildSrc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ff-search-kotlin_buildSrc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ff-search-kotlin_buildSrc_main.iml" group="ff-search-kotlin_buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ff-search-kotlin_buildSrc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ff-search-kotlin_buildSrc_test.iml" group="ff-search-kotlin_buildSrc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ff-search-kotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ff-search-kotlin_main.iml" group="ff-search-kotlin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ff-search-kotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ff-search-kotlin_test.iml" group="ff-search-kotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/popup/popup.iml" filepath="$PROJECT_DIR$/.idea/modules/popup/popup.iml" group="popup" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/popup/popup_main.iml" filepath="$PROJECT_DIR$/.idea/modules/popup/popup_main.iml" group="popup" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/popup/popup_test.iml" filepath="$PROJECT_DIR$/.idea/modules/popup/popup_test.iml" group="popup" />
     </modules>
   </component>
 </project>
