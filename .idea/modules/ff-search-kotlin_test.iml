@@ -4,7 +4,6 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false">
         <productionOutputPath>$MODULE_DIR$/../../build/classes/kotlin/main/ff-search-kotlin.js</productionOutputPath>
-        <testOutputPath>$MODULE_DIR$/../../build/classes/kotlin/test/ff-search-kotlin_test.js</testOutputPath>
         <compilerSettings />
         <compilerArguments>
           <option name="outputFile" value="$MODULE_DIR$/../../build/classes/kotlin/test/ff-search-kotlin_test.js" />
@@ -20,6 +19,7 @@
           <option name="pluginClasspaths">
             <array />
           </option>
+          <option name="coroutinesState" value="warn" />
         </compilerArguments>
       </configuration>
     </facet>

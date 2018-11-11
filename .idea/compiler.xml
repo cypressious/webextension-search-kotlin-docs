@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="ff-search-kotlin_buildSrc_main" target="1.8" />
+      <module name="ff-search-kotlin_buildSrc_test" target="1.8" />
       <module name="ff-search-kotlin_main" target="1.8" />
       <module name="ff-search-kotlin_test" target="1.8" />
     </bytecodeTargetLevel>
